@@ -49,6 +49,7 @@ function(vala_create_c_file output)
 			${ARGS_SOURCE}
 		DEPENDS
 			${fast_vapis_used}
+			${ARGS_CUSTOM_VAPIS}
 			${ARGS_DEPENDS}
 	)
 
